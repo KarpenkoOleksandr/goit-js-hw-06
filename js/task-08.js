@@ -7,7 +7,7 @@ function onLoginFormSubmit(evt) {
     const email = input.email;
     const password = input.password;
     if (email.value === '' || password.value === '') {
-    alert('All fields need to be filled!!!')
+    return alert('All fields need to be filled!!!')
     }
     else {
         userData.email = email.value;
